@@ -1,0 +1,78 @@
+
+.BusinessOwnerPage{
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    &__chart{
+        &__header{
+            padding: 18px 0px 35px 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+    &__data{
+        &__header{
+            padding:  25px 0px;
+        }
+    }
+}
+
+.BusinessOwnerSideBar{
+    width: 405px;
+    display: flex;
+    padding-top: -40px;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    &__content{
+        width: 405px;
+        .DownloadFileCard{
+            width: 405px;
+        }
+        .UniqueQueryPage{
+            padding-top: 0px;
+        }
+    }
+
+    &__modal{
+        width: 360px;
+        margin: 20px 20px 30px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    &__info{
+        width: 360px;
+        height: 55px;
+        font-family: CircularStd;
+        font-size: 12px;
+        color: #3c3f54;
+        border-radius: 4px;
+        background-color: #d0dcff;
+        &__file-name{
+            width: 360px;
+            height: 28px;
+            font-family: CircularStd;
+            font-size: 12px;
+            color: #3c3f54;
+            border-radius: 0px 0px 4px 4px;
+            padding: 6px;
+            text-align: center;
+            border: solid 1px #c2cbe5;
+            background-color: #d0dcff;
+            border-top: none;
+
+        }
+        &__button{
+            width: 100%;
+            height: 40px;
+            border-radius: 4px 4px 0px 0px;
+            border: solid 1px #c2cbe5;
+            border-bottom: none;
+        }
+    }
+}

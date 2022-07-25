@@ -1,0 +1,64 @@
+.Input{
+    display: flex;
+    height: 60px;
+    border-radius: 6px;
+    background-color: #f3f6fa;
+    padding: 20px;
+    position: relative;
+    margin: 10px 0px;
+    &.error{
+        border-radius: 6px;
+        border: solid 1px #e93422;
+        background-color: #f3f6fa;
+    }
+    input{
+        background-color: transparent;
+        width: 100%;
+        margin-top: 2px;
+        border: none;
+    }
+    input:focus {
+        outline: none;
+    }
+    input:not(:focus):valid ~ .floating-label{
+        top: 8px;
+        bottom: 10px;
+        left: 20px;
+        font-family: CircularStd;
+        font-size: 0.625rem;
+        letter-spacing: 0.24px;
+        color: #a7a7a7;
+        margin-bottom: 2px;
+    }
+    input:focus ~ .floating-label{
+        top: 8px;
+        bottom: 10px;
+        left: 20px;
+        font-family: CircularStd;
+        font-size: 0.625rem;
+        letter-spacing: 0.24px;
+        color: #a7a7a7;
+        margin-bottom: 2px;
+    }
+    .inputText {
+        font-family: CircularStd;
+        font-size: 1rem;
+        letter-spacing: 0.32px;
+        color: #3b3b41;
+      }
+      
+    .floating-label {
+        position: absolute;
+        pointer-events: none;
+        left: 20px;
+        top: 18px;
+        transition: 0.2s ease all;
+    }
+    &__decorator{
+        width: 23px;
+        image{
+            width: 100px;
+        }
+    }
+}
+

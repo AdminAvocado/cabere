@@ -1,0 +1,34 @@
+.Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: none;
+    border: none;
+    &:focus {
+        outline: none !important;
+        border: none !important;
+    }
+    &__content, &__arrow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__arrow{
+        margin-left: 17px;
+        height: 38px;
+    }
+    &__username-label{
+        font-size: 1rem;
+        font-weight: 500;
+        color: #3c3f54;
+    }
+    &__role-label{
+        font-size: 0.6875rem;
+        font-family: CircularStd;
+        font-size: 0.6875rem;
+        text-align: left;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        color: #9197bc;
+    }
+}

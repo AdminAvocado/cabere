@@ -1,0 +1,33 @@
+.DataDetailContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.DataDetailCard{
+    padding: 10px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 415px;
+    max-width: 415px;
+    min-height: 80px;
+    border-radius: 5px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.03);
+    padding: 31px 24px;
+    background-color: white;
+    &__label{
+        font-size: 0.875rem;        ;
+        font-weight: 500;
+        letter-spacing: 0.16px;
+        color: #6e728d;
+    }
+    &__amount{
+        font-size: 0.875rem;
+        font-weight: 500;
+        letter-spacing: 0.2px;
+        color: #35384d;
+    }
+}

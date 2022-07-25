@@ -1,0 +1,79 @@
+.UniqueQuery-CardResult{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 318px;
+    &__field{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        label{
+            font-family: CircularStd;
+            font-size: 0.75rem;
+            letter-spacing: -0.26px;
+            color: #8b91b6;
+            margin-bottom: 2px;
+            margin-left: 10px;
+        }
+        &__status{
+            display: flex;
+            margin-bottom: 4px;
+            span{
+                font-family: CircularStd;
+                font-size: 0.875rem;
+                letter-spacing: -0.3px;
+                color: #3c3f54;
+            }
+            button{
+                width: 22px;
+                height: 22px;
+                padding: 0px;
+            }
+        }
+        &__status-point{
+            width: 12px;
+            height: 12px;
+            border-radius: 20px;
+            margin: 4px 9px 0px 9px;
+            &.active{
+                background-color: #1cc823;
+            }
+            &.inactive{
+                background-color: #757480;
+            }
+        }
+        &__value{
+            height: 44px;
+            width: 100%;
+            border-radius: 8px;
+            border: solid 1px #dcdeec;
+            font-family: CircularStd;
+            font-size: 0.875rem;
+            background-color: white;
+            padding: 11px 20px;
+            letter-spacing: -0.3px;
+            color: #3c3f54;
+        }
+
+    }
+}
+
+.UniqueQuery-SearchForm{
+    background-color: white;
+    width: 318px;
+    &__error_number{
+        font-family: CircularStd;
+        font-size: 12px;
+        letter-spacing: -0.26px;
+        color: #e93422;
+        margin: -7px 0px 0px 7px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+}
+

@@ -1,0 +1,13 @@
+.HeaderCard{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    > span{
+        font-family: CircularStd;
+        font-size: 0.6875rem;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        color: #9197bc;
+    }
+}

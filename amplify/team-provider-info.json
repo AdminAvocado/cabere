@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-cabere-dev-172710-authRole",
+            "UnauthRoleArn": "arn:aws:iam::903099321047:role/amplify-cabere-dev-172710-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::903099321047:role/amplify-cabere-dev-172710-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-cabere-dev-172710-deployment",
+            "UnauthRoleName": "amplify-cabere-dev-172710-unauthRole",
+            "StackName": "amplify-cabere-dev-172710",
+            "StackId": "arn:aws:cloudformation:us-east-1:903099321047:stack/amplify-cabere-dev-172710/18dc3640-79e8-11ea-85dc-12a6272b4c0e",
+            "AmplifyAppId": "d1x9hya4602mho"
+        },
+        "categories": {
+            "auth": {
+                "cabere99840299": {}
+            }
+        }
+    }
+}

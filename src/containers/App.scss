@@ -1,0 +1,120 @@
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+
+$theme-colors: (
+    "info": tomato,
+    "danger": teal,
+    "success": red,
+);
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.App-main {
+  background-color: #F3F4F8;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.Card_Login {
+  width: 568px;
+  height: 568px;
+  object-fit: contain;
+  border-radius: 25px;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 50px;
+  margin-top :10%;
+  text-align : center;
+}
+
+.GRUPO-CABERE {
+
+  font-family: CircularStd;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  color: #323232;
+}
+
+.login-welcome{
+
+  font-family: CircularStd;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #404747;
+}
+
+.login-logo{
+width: 160px;
+height: 28px;
+object-fit: contain;
+margin-top: 26px;
+}
+
+.btn-login{
+  width: 360px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #504da6;
+  font-family: CircularStd;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+}
+
+.login-pwd{
+    margin-top: 34px;
+    font-family: CircularStd;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    color: #504da6;
+}
+.login-form{
+  margin-top: 55px;
+}
+
+.login-input{
+  width: 360px;
+  height: 60px;
+  background-color: #f3f6fa;
+}
+
+
+:root{
+  --button-background-color: #504da6 !important;
+  --amazonOrange: #504da6 !important;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-color: #cccccc;
+ }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

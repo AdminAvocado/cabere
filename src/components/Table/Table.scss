@@ -1,0 +1,28 @@
+.Table{
+    &__head{
+        background-color: white;
+        th{
+            font-size: 0.86rem;
+            font-weight: 600;
+            padding: 6px !important;
+            text-align: center;
+        }
+    }
+    &__body{
+        th{
+            font-size: 0.86rem;
+            font-weight: 400;
+            padding: 5px !important;
+            text-align: center;
+        }
+    }
+    &__foot{
+        background-color: white;
+        th{
+            font-size: 0.86rem;
+            font-weight: 600;
+            padding: 6px !important;
+            text-align: center;
+        }
+    }
+}

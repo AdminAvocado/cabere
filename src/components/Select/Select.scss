@@ -1,0 +1,14 @@
+.Select{
+    min-width: 155px;
+    border-radius: 8px;
+    border: solid 1px #dcdeec;
+    background-color: #ffffff;
+    ::after{
+        margin-left: 50px;
+    }
+    button{
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

@@ -1,0 +1,30 @@
+.Header{
+    height: 70px;
+    display: flex;
+    padding: 21px 40px;
+    flex-direction: row;
+    background-color: white;
+    justify-content: flex-start;
+    &__alerts{
+        background: none;
+        border: none;
+        margin-top: 6px;
+        margin-right: 10px;
+        color: #3c3f54;
+    }
+    &__button{
+        background: none repeat scroll 0 0 #ddd;
+        border: 1px solid #888;
+        height: 50px;
+        color: #888;
+        left: calc(100% - 45px);
+        position: fixed;
+        top: 70px;
+        border-radius: 8px 0px 0px 8px;
+        width: 45px;
+        z-index: 10;
+    }
+    &__button:focus{
+        outline:none;
+    }
+}

@@ -1,0 +1,21 @@
+.OptionGroup{
+    &__option{
+        background: none;
+        border: none;
+        font-family: CircularStd;
+        font-size: 0.6875rem;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        color: #abafc8;
+        margin-right: 10px;
+    }
+    &__option.active {
+        color: #3c3f54;
+    }
+    &__option:focus {
+        outline: none;
+    }
+}
+.btn{
+    margin-left: 10px;
+}

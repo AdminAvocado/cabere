@@ -1,0 +1,13 @@
+.ButtonLink{
+    height: fit-content;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+    color: lightseagreen;
+    border: 1px solid lightseagreen;
+    width: fit-content;
+    padding: 10px;
+    &:visited{
+        color: lightseagreen;
+    }
+}

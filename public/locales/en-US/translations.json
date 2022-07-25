@@ -1,0 +1,66 @@
+{
+    "welcome": "Welcome to project",
+    "not-found":{
+        "subtitle": "Page not found"
+    },
+    "unique-query": {
+        "search-form":{
+            "header-title": "Consulta única",
+            "rfc-placeholder": "RFC",
+            "number-placeholder": "Número de cliente",
+            "search-button": "Consultar",
+            "number-error": "Cliente no encontrado"
+        },
+        "card-result": {
+            "status_active": "Activo",
+            "status_inactive": "Inactivo",
+            "id": "Id",
+            "name": "Nombre",
+            "last_name": "Apellido Paterno",
+            "second_last_name": "Apellido Materno",
+            "rfc": "RFC",
+            "operation": "Operación",
+            "plan_type": "Tipo de plan",
+            "date": "Fecha de Operación"
+        }
+    },
+    "data-owner": {
+        "chart-title": "Cuentas activas",
+        "chart-detail-title": "Información detalle",
+        "info-card-title": "Información",
+        "info-card": {
+            "total-users-label": "Total de cuentas",
+            "registred-users-label": "Cuentas registradas este mes",
+            "total-users-active-label": "Total de cuentas activas",
+            "unregistred-user-label": "Cuentas eliminadas este mes"
+        },
+        "card-download": {
+            "title":  "Descarga de Datos",
+            "button": "Descargar Reporte",
+            "error": "No se encontraron resultados",
+            "init-date-label": "Fecha inicio",
+            "end-date-label": "Fecha fin",
+            "end-date-error": "La fecha final es menor"
+        },
+        "card-upload-up": {
+            "title":  "Alta de cuentas",
+            "button": "Emitir",
+            "dformat-button": "Descargar formato de alta de cuentas"
+        },
+        "card-upload-down": {
+            "title":  "Baja de cuentas",
+            "button": "Emitir",
+            "dformat-button": "Descargar formato de baja de cuentas"
+        },
+        "choose-plan": "Seleccione un plan",
+        "year": "Año",
+        "month": "Mes"
+    },
+    "data-analyst": {
+        "chart-title": "Cuentas activas",
+        "chart-detail-title": "Información detalle",
+        "info-card-title": "Información",
+        "show-table-label": "Mostrar tabla"
+    },
+    "logout": "Cerrar sesión"
+}

@@ -1,0 +1,28 @@
+.Card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 35px;
+    min-height: 310px;
+}
+
+.CardHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 14px 0px;
+    &__icon{
+        background-color: #EFF3F9;
+        border-radius: 10px;
+        max-height: 55px;
+        max-width: 55px;
+        padding: 14px;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 29px;
+        width: 100%;
+    }
+}

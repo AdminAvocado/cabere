@@ -1,0 +1,13 @@
+@import "~react-datepicker/dist/react-datepicker.css";
+
+.DatePicker{
+    height: 44px;
+    border-radius: 8px;
+    padding: 0px 10px;
+    max-width: 150px;
+    border: solid 1px #dcdeec;
+    background-color: #ffffff;
+    &.error{
+        border-color: #FF3333;
+    }
+}

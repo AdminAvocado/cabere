@@ -1,0 +1,19 @@
+.Logo{
+    & > a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    &__divider{
+        width: 2px;
+        border: 1px solid #f3f4f8;
+        margin: 0px 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Logo{
+        display: none;
+    }
+}

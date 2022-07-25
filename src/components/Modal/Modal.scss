@@ -1,0 +1,12 @@
+.Modal-variant{
+    &.success{
+        color: green;
+    }
+    &.danger{
+        color: red;
+    }
+}
+
+.Modal{
+    width: fit-content !important;
+}

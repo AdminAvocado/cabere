@@ -1,0 +1,11 @@
+.ToastConnected{
+    position: fixed;
+    top: calc(100% - 100px);
+    left: calc(100% - 400px);
+    width: 400%;
+    z-index: 5;
+    div {
+        background-color: #d4edda;  
+        color: #0c5460;
+    }
+}
